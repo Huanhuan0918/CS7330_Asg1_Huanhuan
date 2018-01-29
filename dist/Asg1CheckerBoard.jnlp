@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Asg1CheckerBoard.jnlp">
+  <information>
+    <title>Asg1CheckerBoard</title>
+    <vendor>Molamola</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Asg1CheckerBoard.jar" size="5669" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Asg1CheckerBoard" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="asg1checkerboard.Asg1CheckerBoard"  name="Asg1CheckerBoard" />
+  <update check="always"/>
+</jnlp>
